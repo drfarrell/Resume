@@ -1,4 +1,5 @@
 html {
+<<<<<<< HEAD
  font-family: 'Open Sans', sans-serif;
  color: #444444;
 }
@@ -9,16 +10,33 @@ html {
 
 body {
   padding: 10%;
+=======
+ color: #444444;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 5% 0% 5% 10.2%;
+  position: absolute;
+>>>>>>> master
 
 }
 
 h1 {
+<<<<<<< HEAD
   font-size: 40px;
+=======
+  font-size: 55px;
+>>>>>>> master
   font-weight: 700;
 }
 
 h2 {
+<<<<<<< HEAD
   font-size: 13px;
+=======
+  font-size: 14px;
+>>>>>>> master
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: -10px;
@@ -33,37 +51,78 @@ h4 {
   font-weight: 300;
 }
 
+<<<<<<< HEAD
+=======
+footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+>>>>>>> master
 #info {
   padding-top: 23px;
   float: right;
 }
 
+<<<<<<< HEAD
 .hr {
 
+=======
+i {
+}
+
+.hr {
+  /*
+>>>>>>> master
   background-color: orange;
   padding:1.4px;
   width: 280%;
   margin-right: 40px;
   margin-top: 0%;
   position: absolute;
+<<<<<<< HEAD
   -webkit-transform: rotate(110deg) translate(190px,460px); /* Chrome, Safari, Opera*/
 
+=======
+  -webkit-transform: rotate(110deg) translate(190px,460px);
+  */
+>>>>>>> master
 
 }
 
 @media(max-width: 720px){
 
+<<<<<<< HEAD
+=======
+  body {
+    padding: 1%;
+  }
+
+>>>>>>> master
   #info {
   padding-top: 4px;
   float: none;
   }
 
+<<<<<<< HEAD
   .hr {
+=======
+  /*.hr {
+>>>>>>> master
     width: 330%;
     margin-right: 40px;
     margin-top: 0%;
     position: absolute;
     -webkit-transform: rotate(115deg) translate(300px,210px);
+<<<<<<< HEAD
   }
 
+=======
+    z-index: -1;
+    overflow: hidden;
+  }
+*/
+>>>>>>> master
 }
