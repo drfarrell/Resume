@@ -4,16 +4,18 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  padding: 10%;
+  padding: 5% 0% 5% 10.2%;
+  position: absolute;
+
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 13px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: -10px;
@@ -28,41 +30,53 @@ h4 {
   font-weight: 300;
 }
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
 #info {
   padding-top: 23px;
   float: right;
 }
 
-p {
-  
+i {
 }
 
 .hr {
-
+  /*
   background-color: orange;
   padding:1.4px;
   width: 280%;
   margin-right: 40px;
   margin-top: 0%;
   position: absolute;
-  -webkit-transform: rotate(110deg) translate(190px,460px); /* Chrome, Safari, Opera*/ 
+  -webkit-transform: rotate(110deg) translate(190px,460px);
+  */
 
 }
 
 @media(max-width: 720px){
 
+  body {
+    padding: 1%;
+  }
+
   #info {
   padding-top: 4px;
   float: none;
   }
-  
-  .hr {
+
+  /*.hr {
     width: 330%;
     margin-right: 40px;
     margin-top: 0%;
     position: absolute;
     -webkit-transform: rotate(115deg) translate(300px,210px);
+    z-index: -1;
+    overflow: hidden;
   }
-
+*/
 }
-
