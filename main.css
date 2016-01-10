@@ -1,15 +1,10 @@
 html {
- font-family: 'Open Sans', sans-serif;
  color: #444444;
 }
 
-.row {
-
-}
-
 body {
+  font-family: 'Open Sans', sans-serif;
   padding: 10%;
-
 }
 
 h1 {
@@ -38,6 +33,10 @@ h4 {
   float: right;
 }
 
+p {
+  
+}
+
 .hr {
 
   background-color: orange;
@@ -46,7 +45,7 @@ h4 {
   margin-right: 40px;
   margin-top: 0%;
   position: absolute;
-  -webkit-transform: rotate(110deg) translate(190px,460px); /* Chrome, Safari, Opera*/
+  -webkit-transform: rotate(110deg) translate(190px,460px); /* Chrome, Safari, Opera*/ 
 
 }
 
@@ -56,7 +55,7 @@ h4 {
   padding-top: 4px;
   float: none;
   }
-
+  
   .hr {
     width: 330%;
     margin-right: 40px;
@@ -66,3 +65,4 @@ h4 {
   }
 
 }
+
