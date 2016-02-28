@@ -1,21 +1,17 @@
-html {
- color: #444444;
-}
 
-body {
+html, body {
   font-family: 'Open Sans', sans-serif;
-  padding: 5% 0% 5% 10.2%;
-  position: absolute;
-
+  max-width: 100%;
 }
+
 
 h1 {
-  font-size: 55px;
+  font-size: 4em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 14px;
+  font-size: 1.1em;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: -10px;
@@ -24,11 +20,28 @@ h2 {
 
 h3 {
   font-weight: 700;
+  font-size: 1.7em;
 }
 
 h4 {
   font-weight: 300;
 }
+
+p {
+  font-size: 1.1em;
+}
+
+a {
+  color: #444444;
+  -webkit-transition: 0.2s all;
+}
+
+a:hover {
+  color: #FFB400;
+  -webkit-transition: 0.2s all;
+  text-decoration: none;
+}
+
 
 footer {
   padding-top: 30px;
@@ -39,44 +52,28 @@ footer {
 
 #info {
   padding-top: 23px;
-  float: right;
 }
 
-i {
-}
-
-.hr {
-  /*
-  background-color: orange;
-  padding:1.4px;
-  width: 280%;
-  margin-right: 40px;
-  margin-top: 0%;
-  position: absolute;
-  -webkit-transform: rotate(110deg) translate(190px,460px);
-  */
-
+.container {
+  margin: 10px;
 }
 
 @media(max-width: 720px){
 
   body {
-    padding: 1%;
+    margin: 0%;
   }
 
   #info {
   padding-top: 4px;
   float: none;
   }
-
-  /*.hr {
-    width: 330%;
-    margin-right: 40px;
-    margin-top: 0%;
-    position: absolute;
-    -webkit-transform: rotate(115deg) translate(300px,210px);
-    z-index: -1;
-    overflow: hidden;
-  }
-*/
 }
+
+/*---Tablet---*/
+@media only screen and (min-width: 720px) {
+  body {
+    margin: 10%;
+  }
+}
+
